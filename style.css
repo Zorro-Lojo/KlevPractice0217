@@ -1,0 +1,46 @@
+#grid{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+#showing{
+  color:#B7BED9;
+  font-style:strong;
+}
+body{
+  margin:5px;
+}
+  a {
+    color:black;
+    text-decoration:none;
+  }
+  h1{
+    font-size: 60px;
+    text-align: left;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  ol{
+    list-style:none;
+    border-right:1px solid gray;
+    margin:0px;
+    padding:30px;
+  }
+  #article {
+    padding-left:30px;
+    padding-top:50px;
+  }
+
+  @media(max-width:600px){
+    h1{
+      font-size:30px;
+    }
+    ol{
+      text-align: center;
+      border-right:none;
+      border-bottom:1px solid gray;
+    }
+    #grid{
+      display:block;
+    }
+  }
